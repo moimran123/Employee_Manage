@@ -1,0 +1,31 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: 500px; /* Adjusted height */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 10px;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  

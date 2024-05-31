@@ -1,0 +1,11 @@
+.log1
+{display: 'flex';
+     flexDirection: 'column';
+     alignItems: 'center'; 
+     justifyContent: 'center';
+      height: '100vh'; 
+      backgroundColor: '#f5f5f5'
+    }
+    .log2
+    {fontSize: '24px';
+         marginBottom: '20px'}
